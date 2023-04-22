@@ -1,4 +1,7 @@
 import React from 'react';
+import Container from '../../styles/container/container.style';
+import SectionHero from '../../styles/hero/SectionHero.style';
+import Header from './header/Header';
 
 
 
@@ -7,9 +10,11 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <section>
-            wefe
-        </section>
+        <SectionHero>
+            <Container >
+                <Header />
+            </Container>
+        </SectionHero>
     );
 };
 

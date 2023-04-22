@@ -1,7 +1,6 @@
+import { TeamProps } from "../types/TeamProps";
 
-
-
-const baseTheme = {
+const baseTheme: TeamProps = {
 
     color: {
         primary: "#fafafa",
@@ -13,8 +12,14 @@ const baseTheme = {
         fontFooterContact: "#f1cdb3",
         fontBtn: "#292929"
     },
-    sizes:{
-        container : {width: "max-width: 1170px"}
+    sizes: {
+        container: { maxWidthContent: "1170px" },
+        site: { widthSite: "1920px" }
+    },
+
+    fonts: {
+        mainFonts: "BehrensKursivC",
+        btnFonts: "Mona Lisa engravedC"
     }
 
 
