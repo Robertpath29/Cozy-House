@@ -6,6 +6,7 @@ export interface ITeam{
         primary: string,
         secondary:string,
         btn: string,
+        btnHover: string,
         font: string,
         fontHeroTitle: string,
         fontNav:string,

@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../../styles/container/container.style';
 import SectionHero from '../../styles/hero/SectionHero.style';
 import Header from './header/Header';
+import Banner from './banner/Banner';
 
 
 
@@ -11,8 +12,9 @@ import Header from './header/Header';
 const Hero = () => {
     return (
         <SectionHero>
-            <Container >
+            <Container direction='column'>
                 <Header />
+                <Banner />
             </Container>
         </SectionHero>
     );

@@ -5,7 +5,8 @@ const baseTheme: ITeam = {
     color: {
         primary: "#fafafa",
         btn: "#f1cdb3",
-        secondary: "f6f6f6",
+        btnHover: "#eebb96",
+        secondary: "#f6f6f6",
         font: "#545454",
         fontHeroTitle: "#fafafa",
         fontNav: "#ffff",
