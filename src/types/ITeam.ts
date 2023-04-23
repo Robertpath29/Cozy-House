@@ -1,6 +1,6 @@
 
 
-export interface TeamProps{
+export interface ITeam{
 
     color: {
         primary: string,
@@ -26,5 +26,5 @@ export interface TeamProps{
 }
 
 declare module 'styled-components' {
-    export interface DefaultTheme extends TeamProps {}
+    export interface DefaultTheme extends ITeam {}
   }

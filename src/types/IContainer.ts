@@ -1,6 +1,6 @@
 import { HTMLAttributes } from "react";
 
-interface ContainerProps extends HTMLAttributes<HTMLDivElement> {
+interface IContainer extends HTMLAttributes<HTMLDivElement> {
     justify?: string;
     widthContent?:string;
     align?: string;
@@ -8,4 +8,4 @@ interface ContainerProps extends HTMLAttributes<HTMLDivElement> {
     wrap?: string;
 }
 
-export default ContainerProps
+export default IContainer;

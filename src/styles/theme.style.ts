@@ -1,6 +1,6 @@
-import { TeamProps } from "../types/TeamProps";
+import { ITeam } from "../types/ITeam";
 
-const baseTheme: TeamProps = {
+const baseTheme: ITeam = {
 
     color: {
         primary: "#fafafa",

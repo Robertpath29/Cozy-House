@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import ContainerProps from "../../types/ContainerProps";
+import IContainer from "../../types/IContainer";
 
 
-const Container = styled.div<ContainerProps>`
+const Container = styled.div<IContainer>`
 margin: 0 auto;
 display: flex;
 max-width: ${({ theme }) => theme.sizes.container.maxWidthContent};
