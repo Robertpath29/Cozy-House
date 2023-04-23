@@ -5,9 +5,10 @@ export interface ITeam{
     color: {
         primary: string,
         secondary:string,
+        btn: string,
         font: string,
         fontHeroTitle: string,
-        fontLogo: string,
+        fontNav:string,
         fontFooterTitle: string,
         fontFooterContact: string,
         fontBtn: string

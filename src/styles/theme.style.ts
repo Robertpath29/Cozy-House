@@ -4,10 +4,11 @@ const baseTheme: ITeam = {
 
     color: {
         primary: "#fafafa",
+        btn: "#f1cdb3",
         secondary: "f6f6f6",
         font: "#545454",
         fontHeroTitle: "#fafafa",
-        fontLogo: "#f1cdb3",
+        fontNav: "#ffff",
         fontFooterTitle: "#fafafa",
         fontFooterContact: "#f1cdb3",
         fontBtn: "#292929"
