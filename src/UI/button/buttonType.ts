@@ -1,6 +1,8 @@
 
 
 interface IBtn {
-    children: string
+    children?: string | JSX.Element;
+    onClick?: (() => void);
+    className?: string;
 }
 export default IBtn;

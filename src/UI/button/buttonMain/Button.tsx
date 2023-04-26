@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import ButtonStyle from './Button.style';
-import IBtn from './buttonType';
+import IBtn from '../buttonType';
 
 
 

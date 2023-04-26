@@ -1,6 +1,6 @@
 import React from 'react';
 import BannerStyle from '../../../styles/hero/banner/Banner.style';
-import Button from '../../../UI/button/Button';
+import Button from '../../../UI/button/buttonMain/Button';
 
 const Banner = () => {
     return (
@@ -11,5 +11,4 @@ const Banner = () => {
         </BannerStyle>
     );
 };
-
 export default Banner;
