@@ -1,26 +1,21 @@
 import React from 'react';
-import Hero from './hero/Hero';
-import About from './about/About';
-import CarouselAnimal from './carouselAnimal/CarouselAnimal';
-import CozyHouseHelp from './cozyHouseHelp/CozyHouseHelp';
-import Donation from './donation/Donation';
-import Footer from './footer/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { pages } from '../routers/routers';
+
+
+
+
 
 
 function App() {
   return (
-    <>
-      <Hero />
-      <main>
-        <About/>
-        <CarouselAnimal/>
-        <CozyHouseHelp/>
-        <Donation/>
-      </main>
-      <Footer/>
-
-
-    </>
+    <BrowserRouter>
+      <Routes>
+        {
+          pages.map(route => <Route path={route.path} element={route.element} />)
+        }
+      </Routes>
+    </BrowserRouter>
   );
 }
 
