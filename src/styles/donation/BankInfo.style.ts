@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const BankInfoStyle = styled.section`
+const BankInfoStyle = styled.div`
     width: 500px;
 &>h1{
     font-size: ${({theme})=>theme.sizes.title};

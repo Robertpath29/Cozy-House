@@ -4,6 +4,7 @@ import About from './about/About';
 import CarouselAnimal from './carouselAnimal/CarouselAnimal';
 import CozyHouseHelp from './cozyHouseHelp/CozyHouseHelp';
 import Donation from './donation/Donation';
+import Footer from './footer/Footer';
 
 
 function App() {
@@ -15,9 +16,8 @@ function App() {
         <CarouselAnimal/>
         <CozyHouseHelp/>
         <Donation/>
-
-    
       </main>
+      <Footer/>
 
 
     </>

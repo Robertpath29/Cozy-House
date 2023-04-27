@@ -1,7 +1,7 @@
 
 import styled from "styled-components";
 
-const NumberCardStyle = styled.section`
+const NumberCardStyle = styled.div`
 display: flex;
 align-items: center;
 justify-content: space-around;
