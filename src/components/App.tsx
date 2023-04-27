@@ -3,6 +3,7 @@ import Hero from './hero/Hero';
 import About from './about/About';
 import CarouselAnimal from './carouselAnimal/CarouselAnimal';
 import CozyHouseHelp from './cozyHouseHelp/CozyHouseHelp';
+import Donation from './donation/Donation';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <About/>
         <CarouselAnimal/>
         <CozyHouseHelp/>
+        <Donation/>
 
     
       </main>
