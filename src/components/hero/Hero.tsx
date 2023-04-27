@@ -12,8 +12,8 @@ import Banner from './banner/Banner';
 const Hero = () => {
     return (
         <SectionHero>
+            <Header/>
             <Container direction='column'>
-                <Header />
                 <Banner />
             </Container>
         </SectionHero>

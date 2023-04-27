@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { headerStyleTypeProps } from "../../../../types/headerType/headerStyleTypeProps";
 
 
-const NavStyle = styled.nav`
+const NavStyle = styled.nav<headerStyleTypeProps>`
 
 &>:not(:last-child){
 margin-right: 50px;
@@ -10,7 +11,7 @@ margin-right: 50px;
 
 &>a{
 font-size: 1.2rem;
-color: ${({ theme }) => theme.color.fontNav};
+color: ${({ theme, pets }) => (pets ? theme.color.font : theme.color.fontNav)};
 text-decoration: none;
 position: relative;
 };
