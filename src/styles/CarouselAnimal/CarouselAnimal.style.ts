@@ -15,7 +15,7 @@ padding: 50px 0;
 }
 
 .carousel-title{
-    font-size: 3rem;
+    font-size: ${({theme})=> theme.sizes.title};
     margin: 0 0 30px 0;
 }
 `

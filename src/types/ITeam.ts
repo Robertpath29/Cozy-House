@@ -17,6 +17,7 @@ export interface ITeam{
     sizes:{
         container : {maxWidthContent: string},
         site: {widthSite : string}
+        title: string;
     },
 
     fonts: {

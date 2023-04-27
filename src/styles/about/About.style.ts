@@ -13,7 +13,7 @@ aside{
 
 aside>h1{
     margin: 0;
-    font-size: 3rem;
+    font-size: ${({theme})=> theme.sizes.title};
     font-weight: 100;
 }
 

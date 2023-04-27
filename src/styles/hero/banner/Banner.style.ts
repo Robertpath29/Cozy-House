@@ -5,7 +5,7 @@ max-width: 450px;
 margin-top: 260px;
 
 &>h1{
-    font-size: 3rem;
+    font-size: ${({theme})=> theme.sizes.title};
     color: ${({ theme}) => theme.color.fontHeroTitle};
     margin: 0;
 }

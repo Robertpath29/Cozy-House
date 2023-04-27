@@ -16,7 +16,8 @@ const baseTheme: ITeam = {
     },
     sizes: {
         container: { maxWidthContent: "1170px" },
-        site: { widthSite: "1920px" }
+        site: { widthSite: "1920px" },
+        title: "3rem"
     },
 
     fonts: {
