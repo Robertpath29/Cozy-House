@@ -1,9 +1,10 @@
 
 interface ICardAnimal {
-    item: {
-        name: string;
-        imgSrc: string;
-      };
+  item: {
+    id: number;
+    name: string;
+    imgSrc: string;
+  };
 }
 
 export default ICardAnimal;

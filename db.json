@@ -3,107 +3,212 @@
         {
             "id": 1,
             "name": "Лексус",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU2BydyQ4GXyiqeXu6vyJZutA8OtAilkHz3Q&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU2BydyQ4GXyiqeXu6vyJZutA8OtAilkHz3Q&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 2,
             "name": "Лаккі",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYwW5j-_lvint70kDPL0kUjHkf-r6a8JLJAA&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYwW5j-_lvint70kDPL0kUjHkf-r6a8JLJAA&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 3,
             "name": "Лимончік",
-            "imgSrc": "data:image/jpeg;base64,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"
+            "imgSrc": "data:image/jpeg;base64,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",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 4,
             "name": "Ларсік",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRdVXm1h49Zh6x9t6Dz5XeUePryf4G2pkRA&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRdVXm1h49Zh6x9t6Dz5XeUePryf4G2pkRA&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 5,
             "name": "Оріон",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZmmVbQROAPOTN5ZAj1-Vtd6AcdPKCu7EreBto-ExcndVfAcpgDywoxJchT2yS02SzWA&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZmmVbQROAPOTN5ZAj1-Vtd6AcdPKCu7EreBto-ExcndVfAcpgDywoxJchT2yS02SzWA&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 6,
             "name": "Принц",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTYWdocpKrKrWGFGxGzXS4jyOKkWOSdiqWXL3MWzPO5tl443Nah--w87OSis-MCWk5QwU&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTYWdocpKrKrWGFGxGzXS4jyOKkWOSdiqWXL3MWzPO5tl443Nah--w87OSis-MCWk5QwU&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 7,
             "name": "Рататуй",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAwoHin-YAz24gYfguDvUTCUaMOaHVvglScvcZ65tM5DXviMgWde13-6jugNIhIeLFFJE&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAwoHin-YAz24gYfguDvUTCUaMOaHVvglScvcZ65tM5DXviMgWde13-6jugNIhIeLFFJE&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 8,
             "name": "Фаня",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPWqWnGvr_WwE82AWFri7NS4nJ1IvQpJBFOA&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPWqWnGvr_WwE82AWFri7NS4nJ1IvQpJBFOA&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 9,
             "name": "Гарфілд",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8MUlDSbQJukRf2A0Ok46hxjzVXu-dLHtomXHULo86oyyWh8M1_goFZEv6Uv98UcCX3GU&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8MUlDSbQJukRf2A0Ok46hxjzVXu-dLHtomXHULo86oyyWh8M1_goFZEv6Uv98UcCX3GU&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 10,
             "name": "Ванда",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPb8b8Wq-imaUaG5P8QJ4MoMQEPLrXEyAjGw&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPb8b8Wq-imaUaG5P8QJ4MoMQEPLrXEyAjGw&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 11,
             "name": "Грейс",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjf30wH_oonfKyG7oaXA3Smurc1xB2aEcLiQ&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjf30wH_oonfKyG7oaXA3Smurc1xB2aEcLiQ&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 12,
             "name": "Паппі",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bE2nsfoPibKzeXo189eM3-80rh59XOmLD7T9QJ4RundTGBj08Pxbxknn6fy5NrpSpcg&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bE2nsfoPibKzeXo189eM3-80rh59XOmLD7T9QJ4RundTGBj08Pxbxknn6fy5NrpSpcg&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 13,
             "name": "Матільда",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRscjJ0UKPrkRqTUoLLI8IfuutSl0xIXSnMiembmE_d2YeiyVW3GbkTMoNHqknXZWDgsVI&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRscjJ0UKPrkRqTUoLLI8IfuutSl0xIXSnMiembmE_d2YeiyVW3GbkTMoNHqknXZWDgsVI&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 14,
             "name": "Рубі",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyX1S6KMJjax47SaSi-Qpfiy7xgKByLUFHkQ&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyX1S6KMJjax47SaSi-Qpfiy7xgKByLUFHkQ&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 15,
             "name": "Тара",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmA_IB-BgQAPk3Yt1lxBwaFYoyveyq4eoqLg&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmA_IB-BgQAPk3Yt1lxBwaFYoyveyq4eoqLg&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 16,
             "name": "Піксі",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR38YZOQ9UAfgzqvVuHiA6febg3Iwjysrn-A&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR38YZOQ9UAfgzqvVuHiA6febg3Iwjysrn-A&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 17,
             "name": "Альба",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGWjRJwLOLbW6TQkGu6aw-qanYYbYILRk1bUgVIC3ijjtzYfjyeNBHFqVJGQQaN4b8xdQ&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGWjRJwLOLbW6TQkGu6aw-qanYYbYILRk1bUgVIC3ijjtzYfjyeNBHFqVJGQQaN4b8xdQ&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 18,
             "name": "Баффі",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4I1VAjBR3nYCVl27XDXoSTuX9iRdQsSH10Q&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4I1VAjBR3nYCVl27XDXoSTuX9iRdQsSH10Q&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 19,
             "name": "Бетховен",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYbRfbCv6h-7vFPqNAo8InjbwkN1S18i79w&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYbRfbCv6h-7vFPqNAo8InjbwkN1S18i79w&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 20,
             "name": "Амулет",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnj3qDw6XsqmrgOhrRmKPTJzzcPB5SruFu8Q&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnj3qDw6XsqmrgOhrRmKPTJzzcPB5SruFu8Q&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         },
         {
             "id": 21,
             "name": "Арчік",
-            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3kuu1ItwPj_3GUuMhwOkgLA5r7k8-JUCaQ&usqp=CAU"
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3kuu1ItwPj_3GUuMhwOkgLA5r7k8-JUCaQ&usqp=CAU",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consequatur, doloremque ex eveniet deleniti sunt saepe maxime molestias dolorem hic doloribus nostrum odit placeat dolores ullam debitis dolore itaque necessitatibus optio blanditiis pariatur iusto dicta nisi ad. Consequuntur laboriosam enim voluptatibus obcaecati accusamus! Iste cupiditate adipisci eos odit deleniti et, ratione architecto voluptate mollitia officia consequatur dolorem vel! Dignissimos enim sunt et illum eum. Aliquid quo, ducimus, quia cum voluptates possimus sed perspiciatis minus, blanditiis nam sint ipsum. Maiores voluptatum velit aperiam suscipit deleniti, dolorem totam molestiae cumque asperiores pariatur ullam dolor excepturi, quaerat fugit non magni aliquid alias iure?",
+            "age": "2 місяці",
+            "inoculations": "Немає",
+            "diseases": "Немає",
+            "parasites": "Немає"
         }
     ]
 }

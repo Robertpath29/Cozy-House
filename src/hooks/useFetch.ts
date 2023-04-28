@@ -1,16 +1,16 @@
 import { useState } from "react";
 
-export function useFetch(Callback: (page: number) => void): [(page: number) => Promise<void>, boolean, string] {
+export function useFetch(Callback: (page?: number, id?: number) => void): [(page?: number, id?: number) => Promise<void>, boolean, string] {
 
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
 
 
-    async function getAnimalFetch(page: number) {
+    async function getAnimalFetch(page?: number, id?: number) {
         try {
             setLoading(true);
             setError("");
-            await Callback(page);
+            await Callback(page, id);
 
         } catch (error) {
             if (error instanceof Error) {

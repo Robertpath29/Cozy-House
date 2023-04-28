@@ -1,13 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { pages } from '../routers/routers';
+import OneAnimal from '../pages/OneAnimal';
 
 
 
 
 function App() {
-
-  
 
 
 
