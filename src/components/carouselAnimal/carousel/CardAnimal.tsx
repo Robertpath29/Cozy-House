@@ -6,11 +6,13 @@ import Button from '../../../UI/button/buttonMain/Button';
 
 const CardAnimal: React.FC<ICardAnimal> = ({ item }) => {
     return (
-        <CardAnimalStyle>
-            <img src={item.imgSrc} alt={item.name} />
-            <h1>{item.name}</h1>
-            <Button>Детальніше</Button>
-        </CardAnimalStyle>
+        <>
+            <CardAnimalStyle>
+                <img src={item.imgSrc} alt={item.name} />
+                <h1>{item.name}</h1>
+                <Button>Детальніше</Button>
+            </CardAnimalStyle>
+        </>
     );
 };
 

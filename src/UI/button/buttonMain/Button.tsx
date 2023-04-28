@@ -5,9 +5,9 @@ import IBtn from '../buttonType';
 
 
 
-const Button: FC<IBtn> = ({ children}) => {
+const Button: FC<IBtn> = ({ children, onClick}) => {
     return (
-        <ButtonStyle>
+        <ButtonStyle onClick={onClick}>
             {children}
         </ButtonStyle>
     );

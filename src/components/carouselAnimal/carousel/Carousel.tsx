@@ -3,11 +3,13 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import CarouselPetsButtonGroup from '../../../UI/button/buttonCarouselPets/CarouselPetsButtonGroup';
 import responsive from '../../../config/configCarousel/configResponsive';
-import items from '../../../config/configCarousel/configItems';
 import CardAnimal from './CardAnimal';
+import { useGetAnimalQuery } from '../../../api/api';
+import IItems from "../../../types/CarouselType/IItems";
 
 
 const CarouselPets: React.FC = () => {
+  const { isLoading, error, data } = useGetAnimalQuery(undefined);
 
   return (
     <Carousel
@@ -20,11 +22,21 @@ const CarouselPets: React.FC = () => {
       customButtonGroup={<CarouselPetsButtonGroup next={() => { }} previous={() => { }} />}
       autoPlay={true}
       autoPlaySpeed={5000}
-      
+
     >
-      {items.map(item =>
-        <CardAnimal key={item.id} item={item} />
-      )}
+      {
+        isLoading ? <div>loading...</div>
+          : error ? <div>error</div>
+            : data.map((item: IItems) => {
+              if (item.id > 3) return null
+              return <CardAnimal key={item.id} item={item} />
+            }
+            )
+      }
+
+
+
+
     </Carousel>
   );
 };

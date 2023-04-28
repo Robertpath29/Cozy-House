@@ -4,6 +4,8 @@ import App from './components/App';
 import GlobalStyles from "./styles/global.style"
 import { ThemeProvider } from 'styled-components';
 import baseTheme from './styles/theme.style';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
 
 
 
@@ -16,7 +18,9 @@ root.render(
   <>
     <ThemeProvider theme={baseTheme}>
       <GlobalStyles />
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     </ThemeProvider>
   </>
 

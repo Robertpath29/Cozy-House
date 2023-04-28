@@ -5,14 +5,17 @@ import { pages } from '../routers/routers';
 
 
 
-
-
 function App() {
+
+  
+
+
+
   return (
     <BrowserRouter>
       <Routes>
         {
-          pages.map(route => <Route path={route.path} element={route.element} />)
+          pages.map(route => <Route path={route.path} element={route.element} key={route.path} />)
         }
       </Routes>
     </BrowserRouter>
