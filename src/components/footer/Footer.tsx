@@ -6,7 +6,7 @@ import Container from '../../styles/container/container.style';
 
 const Footer = () => {
     return (
-        <FooterStyle>
+        <FooterStyle className='scroll-to-footer'>
             <Container justify='space-between'>
                 <Info />
                 <InfoLocation />

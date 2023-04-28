@@ -5,7 +5,7 @@ import BankInfo from './BankInfo';
 
 const Donation = () => {
     return (
-        <DonationStyle>
+        <DonationStyle className='scroll-to-donation'>
             <Container justify='space-around'>
                 <img src="./img/DogDonation.webp" alt="Dog" />
                 <BankInfo />
